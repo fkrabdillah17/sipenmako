@@ -1,0 +1,6 @@
+// cara koneksi tanpa model
+        $db = \Config\Database::connect();
+        $datakecelakaan = $db->query("SELECT * FROM kecelakaankerja");
+        foreach ($datakecelakaan->getResultArray() as $row) {
+            d($row);
+        }

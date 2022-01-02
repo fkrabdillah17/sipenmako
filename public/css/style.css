@@ -1,0 +1,12 @@
+.foto {
+  width: 100px;
+}
+
+.table-bordered > tbody > tr > * {
+  vertical-align: middle;
+}
+
+.resizedTextbox {
+  width: 100px;
+  height: 100px;
+}
